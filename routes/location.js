@@ -15,7 +15,7 @@ module.exports = function (app) {
 
         app.get('/risk_areas', function (req, res) {
             res.setHeader('Content-Type', 'application/json');
-            res.send(JSON.stringify([{"latitude": -12.158792,"longitude": -76.929747},{"latitude": -12.204663,"longitude": -76.952769},{"latitude": -11.968713,"longitude": -76.993997},{"latitude": -11.792829,"longitude": -76.987340}]));
+            res.send(JSON.stringify([{"district": 'Villa María del Triunfo',"latitude": -12.158792,"longitude": -76.929747},{"district": 'Villa El Salvador',"latitude": -12.204663,"longitude": -76.952769},{"district": 'San Juan de Lurigancho',"latitude": -11.968713,"longitude": -76.993997},{"district": 'Carabayllo',"latitude": -11.792829,"longitude": -76.987340}]));
         });
 
         // Displays the map.
