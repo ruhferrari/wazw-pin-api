@@ -26,7 +26,7 @@ module.exports = function (app) {
             html +="<html>";
             html +="<body>";
             html += "<form>";
-            html += "<iframe src='https://embed.waze.com/iframe?zoom=50&lat="+req.body.latitude+"&lon="+req.body.longitude+"&pin=1'width='100%' height='520'></iframe>"; 
+            html += "<iframe src='https://embed.waze.com/iframe?zoom=14&lat="+req.body.latitude+"&lon="+req.body.longitude+"&pin=1'width='100%' height='520'></iframe>"; 
             html += "</form>";
             html += "</body>";
             html += "</html>";
