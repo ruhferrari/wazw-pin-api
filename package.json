@@ -1,0 +1,17 @@
+{
+  "name": "waze-pin-api",
+  "version": "1.0.0",
+  "description": "Node.js Api to Pin a location under the Wazw map.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lucas Ferrari",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "qrcode": "^1.3.3",
+    "speakeasy": "^2.0.0"
+  }
+}
